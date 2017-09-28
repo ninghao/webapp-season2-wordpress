@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d7ce313d8f7f4473dd63615959acbdf",
+    "content-hash": "29efa42b851ba4b076f44dc83a905e12",
     "packages": [
         {
             "name": "composer/installers",
@@ -252,6 +252,45 @@
             "time": "2017-05-31T18:42:33+00:00"
         },
         {
+            "name": "ninghao/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ninghao/wp-sync-db.git",
+                "reference": "45785af9ab1aa021b7e8a52225ee1c2cd3233cd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ninghao/wp-sync-db/zipball/45785af9ab1aa021b7e8a52225ee1c2cd3233cd8",
+                "reference": "45785af9ab1aa021b7e8a52225ee1c2cd3233cd8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "test": [
+                    "./test.sh"
+                ]
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/ninghao/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "support": {
+                "source": "https://github.com/ninghao/wp-sync-db/tree/master"
+            },
+            "time": "2017-09-27T11:10:32+00:00"
+        },
+        {
             "name": "oscarotero/env",
             "version": "v1.1.0",
             "source": {
@@ -424,16 +463,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.0.2",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "c7594a88ae75401e8f8d0bd4deb8431b39045c51"
+                "reference": "3c2d0a0fe39684ba0c1eb842a6a775d0b938d699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/c7594a88ae75401e8f8d0bd4deb8431b39045c51",
-                "reference": "c7594a88ae75401e8f8d0bd4deb8431b39045c51",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/3c2d0a0fe39684ba0c1eb842a6a775d0b938d699",
+                "reference": "3c2d0a0fe39684ba0c1eb842a6a775d0b938d699",
                 "shasum": ""
             },
             "require": {
@@ -443,7 +482,7 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
             },
             "bin": [
                 "bin/phpcs",
@@ -471,12 +510,14 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-07-18T01:12:32+00:00"
+            "time": "2017-09-19T22:47:14+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ninghao/wp-sync-db": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -30,6 +30,10 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ninghao/wp-sync-db"
     }
   ],
   "require": {
@@ -39,7 +43,8 @@
     "johnpbloch/wordpress": "4.8.2",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/simple-image-sizes": "^3.1"
+    "wpackagist-plugin/simple-image-sizes": "^3.1",
+    "ninghao/wp-sync-db": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
