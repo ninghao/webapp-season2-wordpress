@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "29efa42b851ba4b076f44dc83a905e12",
+    "content-hash": "91db8145cf1dfb3a5ea6826cd8c14e08",
     "packages": [
         {
             "name": "composer/installers",
@@ -291,6 +291,40 @@
             "time": "2017-09-27T11:10:32+00:00"
         },
         {
+            "name": "ninghao/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ninghao/wp-sync-db-media-files.git",
+                "reference": "86b5496c00494c4c6a1d385c677aed2852f6be3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ninghao/wp-sync-db-media-files/zipball/86b5496c00494c4c6a1d385c677aed2852f6be3f",
+                "reference": "86b5496c00494c4c6a1d385c677aed2852f6be3f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/ninghao/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "support": {
+                "source": "https://github.com/ninghao/wp-sync-db-media-files/tree/master"
+            },
+            "time": "2017-09-27T08:05:15+00:00"
+        },
+        {
             "name": "oscarotero/env",
             "version": "v1.1.0",
             "source": {
@@ -516,7 +550,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ninghao/wp-sync-db": 20
+        "ninghao/wp-sync-db": 20,
+        "ninghao/wp-sync-db-media-files": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
