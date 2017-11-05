@@ -69,6 +69,12 @@ define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 define('NONCE_SALT', env('NONCE_SALT'));
 
 /**
+ * JWT
+ */
+define('JWT_AUTH_SECRET_KEY', '5e/M1tqyLMv3Ct7UAKvqBtTZXTX2YgQ3ri5rO1pluFW4e78dP7IZKnJKoFEuRSXqlhisSq3mFKzvv1yZ4vdZ4Q==');
+define('JWT_AUTH_CORS_ENABLE', true);
+
+/**
  * Custom Settings
  */
 define('AUTOMATIC_UPDATER_DISABLED', true);
